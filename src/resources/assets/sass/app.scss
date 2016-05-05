@@ -1,0 +1,376 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-size: 1em;
+}
+
+.navbar {
+  z-index: 10;
+}
+
+.form-control {
+  height: 45px;
+}
+
+#navbar-right {
+  @media screen {
+    @media (min-width: 100px)
+    and (max-width: 768px) {
+      padding-bottom: 10%;
+    }
+  }
+}
+
+#nav-bar-id {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+#nav-bar-logo {
+  color: black;
+  font-weight: 500;
+}
+
+#nav-bar-Login {
+  color: #3190e7;
+  font-weight: 600;
+}
+
+#nav-bar-Experiences {
+  color: black;
+}
+
+#nav-bar-Contact {
+  color: black;
+}
+
+.navbar .navbar-nav > li > a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#dropdwon {
+  background-color: white;
+  color: black;
+}
+
+.navbar .navbar-nav .open .dropdown-menu > li > a {
+  color: black;
+}
+
+.dropdown-menu {
+  @media screen {
+    @media (min-width: 100px)
+    and (max-width: 989px) {
+     padding-left: 3%;
+      padding-right: 3%;
+      margin-top: 15px;
+    }
+  }
+ padding: 0;
+}
+
+#search-li {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+
+/***** typeahead search-box *****************/
+
+
+.typeahead-container {
+  padding-bottom: 50px;
+}
+
+.typeahead-list {
+  top: 0;
+}
+
+#typeahead-container {
+  padding-bottom: 25px;
+}
+
+#typeahead-query {
+  @media screen {
+    @media (min-width: 100px)
+    and (max-width: 1024px) {
+      width: 50%;
+      padding-top: 10px;
+    }
+  }
+  width: 80%;
+  padding-top: 10px;
+}
+
+#flyer-query {
+  height: 40px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+#Search-Btn {
+  height: 40px;
+  background-color: #2BBBAD;
+  color: white;
+  line-height: 31px;
+  padding: 5px 22px;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 10px;
+  outline: 0!important;
+}
+
+
+/*******************************************/
+
+.fb-bg {
+  background-color: #3B5998;
+}
+.tw-bg {
+  background-color: #55ACEE;
+}
+.gplus-bg {
+  background-color: #DD4B39;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.arrow { color: black; }
+.material-icons.edit { color: #2BBBAD; }
+.material-icons.edit-white { color: white; }
+.material-icons.delete { color: #CC0000; }
+.material-icons.delete-white { color: white; }
+
+
+.btn-link:hover {
+  text-decoration: none;
+}
+
+.btn-border-primary {
+  background-color: transparent;
+  border: 2px solid #4285F4;
+  width: 55.5px;
+  height: 55.5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 37px;
+  position: relative;
+  color: white;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.btn-border-primary:hover {
+  background-color: transparent;
+  border: 2px solid orange;
+  width: 55.5px;
+  height: 55.5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 37px;
+  position: relative;
+  color: white;
+  padding: 0;
+  padding-top: 10px;
+}
+
+#arrow-btn:hover {
+  color: white;
+}
+
+/* Toggle Wrapper Styles */
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+
+/************************************************ Sidebar Styles ******************************************************/
+
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 250px;
+  }
+
+  #wrapper.toggled {
+    padding-left: 0;
+  }
+
+  #sidebar-wrapper {
+    width: 250px;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 0;
+  }
+
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}
+
+.sidebar-nav .dropdown-menu {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  background-color: #222;
+  box-shadow: none;
+}
+
+
+#dropdown-category a {
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+}
+
+#dropdown-category a:hover {
+  font-size: 14px;
+  background-color:  #333;
+}
+
+#dropdown-category:hover {
+  background-color: #333;
+}
+
+
+/**************************************************** Footer CSS ******************************************************/
+
+
+footer.page-footer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 0;
+}
+footer.page-footer a {
+  line-height: 25px;
+}
+footer.page-footer a {
+  color: #fff;
+  font-size: 15px;
+}
+

@@ -1,0 +1,6 @@
+.idea/
+.idea/workspace.xml
+node_modules
+gulpfile.js
+config.codekit
+scratch.txt
