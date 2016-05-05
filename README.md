@@ -44,3 +44,12 @@ Live website demo here:
 ( http://davidtrushkov.com/store/ ) 
 
 *If you want to see admin area, click on Login and it will tell the email and password to use*
+
+## How to set this project up ##
+
++ Rename root folder to store
++ Root into store/src directory and call "php artisan key:generate" to generatqe new key
++ Create a database, and migrate the tables
++ Add credentials .env file including email details
++ To make someone admin, go into users table and insert a 1 under admin column
++ --- to verfity user, make sure to set token column to NULL and verfifed to 1 if your on localhost
