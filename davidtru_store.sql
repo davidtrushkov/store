@@ -622,13 +622,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   UNIQUE KEY `users_email_unique` (`email`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;
 
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `username`, `email`, `password`, `last_login`, `verified`, `token`, `admin`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'hydrogen11', 'davidisback4good@hotmail.com', '$2y$10$.o7U2igNcDkXQBAF8fpsdO8xdHW/SR7U7kB7BhvvlulJHgskwEFWe', '2016-04-27 16:46:16', 1, NULL, 1, 'LTJpeAfTSMmvqm6jZcEZL47UCIEzlm9sdVONlGrl96p8GhsSF5IriElPp295', '2016-04-22 05:21:10', '2016-04-27 21:46:16'),
-(2, 'test', 'test@hotmail.com', '$2y$10$/3QuCubGQpbPF0hnb0UkteU9Ci.kUeZ.dnXB0d99QAoUCpZlJ9zKu', '2016-04-27 16:45:33', 1, NULL, 1, 's0gMhEuMsNCXjtRVKfFQEpE9kbFgDPYl0KG1hnrMTmbUxxa5zylHmnOLAUot', '2016-04-26 09:06:20', '2016-04-27 21:45:33');
 
 --
 -- Constraints for dumped tables
