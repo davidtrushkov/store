@@ -40,12 +40,15 @@
 
                     <div class="col-sm-12 col-md-6">
                         <div class="panel panel-default">
-                            <div class="panel-heading primary-color-dark white-text"><i class="fa fa-money" aria-hidden="true"></i> &nbsp;Orders & Totals</div>
-                                <div class="panel-body">
-                                    <canvas id="myChart" style="padding-right: 20px;"></canvas>
-                                </div>
-
+                        <div class="panel-heading primary-color white-text"><i class="fa fa-google-plus" aria-hidden="true"></i> &nbsp;Visitors</div>
+                        <div class="panel-body">
+                            <div style="overflow: auto; height: 275px;">
+                                <div id="embed-api-auth-container"></div>
+                                <div id="chart-container"></div>
+                                <div id="view-selector-container"></div>
+                            </div>
                         </div>
+                    </div>
                     </div>
 
                     <div class="col-sm-12 col-md-6">
@@ -99,19 +102,15 @@
 
                 </div> <!-- close col-lg-12 -->
 
-                <div class="col-lg-12">
+                <div class="col-sm-12 col-md-12">
 
-                    <div class="panel panel-default">
-                        <div class="panel-heading primary-color white-text"><i class="fa fa-google-plus" aria-hidden="true"></i> &nbsp;Visitors</div>
-                        <div class="panel-body">
-                            <div style="overflow: auto; height: 275px;">
-                                <div id="embed-api-auth-container"></div>
-                                <div id="chart-container"></div>
-                                <div id="view-selector-container"></div>
-                            </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading primary-color-dark white-text"><i class="fa fa-money" aria-hidden="true"></i> &nbsp;Orders & Totals</div>
+                                <div class="panel-body">
+                                    <canvas id="myChart" style="padding-right: 20px;"></canvas>
+                                </div>
                         </div>
-                    </div>
-
+                        
                 </div>
 
 
@@ -155,7 +154,8 @@
             scaleStepWidth: 500,
             scaleStartValue: 0,
             animationSteps: 60,
-            animationEasing: "easeOutBounce"
+            animationEasing: "easeOutBounce",
+            barValueSpacing : 0,
         });
     };
 </script>
