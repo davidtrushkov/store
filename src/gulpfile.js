@@ -42,7 +42,11 @@ elixir(function(mix) {
 
     .styles ([
         'jquery.typeahead.min.css'
-    ], 'public/css/typeahead.css');
+    ], 'public/css/typeahead.css')
+    
+    .styles ([
+            'main.css'
+        ], 'public/css/main.css');
 
 });
 
