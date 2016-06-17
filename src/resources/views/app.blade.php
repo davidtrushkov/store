@@ -27,6 +27,11 @@
         <link rel="stylesheet" href="{{ asset('src/public/css/typeahead.css') }}">
         <!-- Include lity ligh-tbox file -->
         <link rel="stylesheet" href="{{ asset('src/public/css/lity.css') }}">
+        
+        <!-- Added the main.css file that combines app.scss and app.css togather -->
+        <link rel="stylesheet" href="{{ asset('src/public/css/main.css') }}">
+        
+        
         <!-- Material Design Icons -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
