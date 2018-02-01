@@ -1,3 +1,5 @@
+#### checkout my new ecommerce project [here](https://github.com/davidtrushkov/marketplace)  ####
+
 # store
 A ecommerce store using Laravel 5.2
 
